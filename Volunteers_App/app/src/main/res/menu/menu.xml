@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/firstItem"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/secondItem"
+            android:icon="@drawable/ic_baseline_app_registration_24"
+            android:title="Register Organisation" />
+        <item
+            android:id="@+id/thirdItem"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/fourthItem"
+            android:icon="@drawable/ic_baseline_rewards"
+            android:title="Donate" />
+
+    <item android:title="Profile">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Rate Us" />
+            </group>
+        </menu>
+    </item>
+    </group>
+</menu>

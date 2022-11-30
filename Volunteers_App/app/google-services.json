@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "817087212483",
+    "project_id": "volunteers-app-e6983",
+    "storage_bucket": "volunteers-app-e6983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817087212483:android:93cbc84a2a53264739eb76",
+        "android_client_info": {
+          "package_name": "com.example.volunteers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817087212483-alkoch867rokene4nbj1kcrpksg725jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9KeF9jM-IowiqGTkkoWnNsvBZwfeI8pY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817087212483-alkoch867rokene4nbj1kcrpksg725jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
